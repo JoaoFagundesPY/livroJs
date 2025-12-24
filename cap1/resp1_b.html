@@ -1,0 +1,17 @@
+<meta charset="utf-8" />
+<script>
+  //  lê os dados de entrada
+  var valorConta = Number(prompt("Valor da Conta R$: "));
+  var numeroClientes = Number(prompt("Número de Clientes: "));
+  // define o valor a ser pago por cliente
+  var valorPorCliente = valorConta / numeroClientes;
+  // exibe os resultados
+  alert(
+    "Valor da Conta R$: " +
+      valorConta.toFixed(2) +
+      "\nNúmero de Clientes: " +
+      numeroClientes +
+      "\nValor por Cliente R$: " +
+      valorPorCliente.toFixed(2)
+  );
+</script>
