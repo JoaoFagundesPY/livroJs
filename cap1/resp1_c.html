@@ -1,0 +1,18 @@
+<meta charset="utf-8" />
+<script>
+  // lê os dados de entrada
+  var preco = Number(prompt("Preço R$: "));
+  //aplica o desconto de 10%
+  var descontoaVista = preco * 0.9;
+  // preço parcelado em 3x
+  var valorParcelado = preco / 3;
+  // exibe o resultado
+  alert(
+    "Preço R$: " +
+      preco.toFixed(2) +
+      "\nÀ Vista R$: " +
+      descontoaVista.toFixed(2) +
+      "\nOu 3x de R$: " +
+      valorParcelado.toFixed(2)
+  );
+</script>
